@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bentr\\source\\repos\\Special\\Mahal\\Mahal\\Mahal.csproj": {}
+    "C:\\Users\\bentr\\Documents\\MahalRepo\\Mahal\\Mahal\\Mahal.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bentr\\source\\repos\\Special\\Mahal\\Mahal\\Mahal.csproj": {
+    "C:\\Users\\bentr\\Documents\\MahalRepo\\Mahal\\Mahal\\Mahal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bentr\\source\\repos\\Special\\Mahal\\Mahal\\Mahal.csproj",
+        "projectUniqueName": "C:\\Users\\bentr\\Documents\\MahalRepo\\Mahal\\Mahal\\Mahal.csproj",
         "projectName": "Mahal",
-        "projectPath": "C:\\Users\\bentr\\source\\repos\\Special\\Mahal\\Mahal\\Mahal.csproj",
+        "projectPath": "C:\\Users\\bentr\\Documents\\MahalRepo\\Mahal\\Mahal\\Mahal.csproj",
         "packagesPath": "C:\\Users\\bentr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bentr\\source\\repos\\Special\\Mahal\\Mahal\\obj\\",
+        "outputPath": "C:\\Users\\bentr\\Documents\\MahalRepo\\Mahal\\Mahal\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
