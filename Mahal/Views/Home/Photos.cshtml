@@ -1,0 +1,157 @@
+﻿@{
+    ViewData["Title"] = "Photos";
+}
+
+<style>
+.grid-container {
+    columns: 3 320px;
+    column-gap: 1.5rem;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.grid-container div {
+    width: 150px;
+    margin: 0 1.5rem 1.5rem 0;
+    display: inline-block;
+    width: 100%;
+    border: solid 2px black;
+    padding: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    transition: all 0.25s ease-in-out;
+}
+
+.grid-container div:hover img {
+    filter: grayscale(0);
+}
+
+.grid-container div:hover {
+    border-color: coral;
+}
+
+.grid-container div img {
+    width: 100%;
+    height: auto;
+    filter: grayscale(100%);
+    border-radius: 5px;
+    transition: all 0.25s ease-in-out;
+}
+
+.grid-container div p {
+    margin: 5px 0;
+    padding: 0;
+    text-align: center;
+    font-style: italic;
+}
+</style>
+
+<div class="text-center">
+    <br />
+    <h1 class="display-4 text-white">Photo Album</h1>
+</div>
+
+<br /><br />
+
+<div class="grid-container">
+    <div>
+        <img class='grid-item grid-item' src="~/images/album/mik0.jpeg" alt="">
+        <p>GCU Graduation - April 2022</p>
+    </div>
+    <div>
+        <img class='grid-item grid-item' src="~/images/album/mik1.jpg" alt="">
+        <p>GCU - April 2022</p>
+    </div>
+    <div>
+        <img class='grid-item grid-item' src="~/images/album/mik2.jpg" alt="">
+        <p>Toronto - May 2022</p>
+    </div>
+    <div>
+        <img class='grid-item grid-item' src="~/images/album/mik3.jpg" alt="">
+        <p>Brentwood - May 2022</p>
+    </div>
+    <div>
+        <img class='grid-item grid-item' src="~/images/album/mik4.jpg" alt="">
+        <p>Easter - April 2022</p>
+    </div>
+    <div>
+        <img class='grid-item grid-item' src="~/images/album/mik5.jpg" alt="">
+        <p>Concord Date - May 2022</p>
+    </div>
+    <div>
+        <img class='grid-item grid-item' src="~/images/album/mik6.jpg" alt="">
+        <p>Brentwood - May 2022</p>
+    </div>
+    <div>
+        <img class='grid-item grid-item' src="~/images/album/mik7.jpg" alt="">
+        <p>Brentwood - May 2022</p>
+    </div>
+    <div>
+        <img class='grid-item grid-item' src="~/images/album/mik8.jpg" alt="">
+        <p>Airport - April 2022</p>
+    </div>
+    <div>
+        <img class='grid-item grid-item' src="~/images/album/mik10.jpg" alt="">
+        <p>Sleepy - May 2022</p>
+    </div>
+    <div>
+        <img class='grid-item grid-item' src="~/images/album/mik11.jpg" alt="">
+        <p>Bedtime - April 2022</p>
+    </div>
+    <div>
+        <img class='grid-item grid-item' src="~/images/album/mik12.jpg" alt="">
+        <p>BJ's Date - May 2022</p>
+    </div>
+    <div>
+        <img class='grid-item grid-item' src="~/images/album/mik13.jpg" alt="">
+        <p>Xmas Eve Party - December 2021</p>
+    </div>
+    <div>
+        <img class='grid-item grid-item' src="~/images/album/mik14.jpg" alt="">
+        <p>GCU - December 2021</p>
+    </div>
+    <div>
+        <img class='grid-item grid-item' src="~/images/album/mik15.jpg" alt="">
+        <p>PHX, AZ - January 2021</p>
+    </div>
+    <div>
+        <img class='grid-item grid-item' src="~/images/album/mik16.jpg" alt="">
+        <p>First Met - December 2021</p>
+    </div>
+    <div>
+        <img class='grid-item grid-item' src="~/images/album/mik17.jpg" alt="">
+        <p>Disney Bday Trip - December 2021</p>
+    </div>
+    <div>
+        <img class='grid-item grid-item' src="~/images/album/mik18.jpg" alt="">
+        <p>GCU - December 2021</p>
+    </div>
+    <div>
+        <img class='grid-item grid-item' src="~/images/album/mik19.jpg" alt="">
+        <p>Hotel Room - December 2021</p>
+    </div>
+    <div>
+        <img class='grid-item grid-item' src="~/images/album/mik20.jpg" alt="">
+        <p>6mo Anniversary Dinner - December 2021</p>
+    </div>
+    <div>
+        <img class='grid-item grid-item' src="~/images/album/mik21.jpg" alt="">
+        <p>Disney Day 2 - December 2021</p>
+    </div>
+    <div>
+        <img class='grid-item grid-item' src="~/images/album/mik22.jpg" alt="">
+        <p>Disney Day 1 - December 2021</p>
+    </div>
+    <div>
+        <img class='grid-item grid-item' src="~/images/album/mik23.jpeg" alt="">
+        <p>SF Trip - May 2022</p>
+    </div>
+    <div>
+        <img class='grid-item grid-item' src="~/images/album/mik24.jpeg" alt="">
+        <p>SF Trip - May 2022</p>
+    </div>
+    <div>
+        <img class='grid-item grid-item' src="~/images/album/mik25.jpeg" alt="">
+        <p>SF Trip - May 2022</p>
+    </div>
+</div>

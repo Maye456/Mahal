@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\images\forest.jpg" />
+    <None Include="wwwroot\images\moon.jpg" />
+    <None Include="wwwroot\images\sunset.jpg" />
+    <None Include="wwwroot\Videos\ForMik.avi" />
+    <None Include="wwwroot\Videos\ForMik.mp4" />
+    <None Include="wwwroot\Videos\ForMik.ogg" />
+  </ItemGroup>
+
+</Project>
