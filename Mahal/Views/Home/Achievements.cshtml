@@ -1,0 +1,93 @@
+﻿@{
+    ViewData["Title"] = "Achievements";
+}
+<style type="text/css">
+    .svg-wrapper 
+    {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+	    margin: 0 auto;
+        width: 480px;  
+    }
+
+    .shape 
+    {
+        stroke-dasharray: 140 540;
+        stroke-dashoffset: -474;
+        stroke-width: 8px;
+        fill: transparent;
+        stroke: #DAA520;
+        border-bottom: 5px solid black;
+        transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
+    }
+
+    .text 
+    {
+        font-family: 'Roboto Condensed';
+        font-size: 20px;
+        line-height: 32px;
+        letter-spacing: 8px;
+        color: #fff;
+        top: -48px;
+        position: relative;
+    }
+
+    .svg-wrapper:hover .shape 
+    {
+        stroke-width: 2px;
+        stroke-dashoffset: 0;
+        stroke-dasharray: 1080;
+    }
+</style>
+
+<div class="text-center">
+    <br />
+    <h1 class="display-4 text-white">Achievements</h1>
+    <br />
+    <br />
+    <br /><br /><br />
+
+    <div class="svg-wrapper">
+        <svg height="60" width="480px" xmlns="http://www.w3.org/2000/svg">
+            <rect class="shape" height="60" width="480px" />
+            <div class="text">1yr. Anniversary 06/22</div>
+        </svg>
+    </div><br /><br />
+    <div class="svg-wrapper">
+        <svg height="60" width="480px" xmlns="http://www.w3.org/2000/svg">
+            <rect class="shape" height="60" width="480px" />
+            <div class="text">Meet The Family pt.2 - 05/22</div>
+        </svg>
+    </div><br /><br />
+    <div class="svg-wrapper">
+        <svg height="60" width="480px" xmlns="http://www.w3.org/2000/svg">
+            <rect class="shape" height="60" width="480px" />
+            <div class="text">Trip To Canada - 05/22</div>
+        </svg>
+    </div><br /><br />
+    <div class="svg-wrapper">
+        <svg height="60" width="480px" xmlns="http://www.w3.org/2000/svg">
+            <rect class="shape" height="60" width="480px" />
+            <div class="text">Meet The Family - 12/21</div>
+        </svg>
+    </div><br /><br />
+    <div class="svg-wrapper">
+        <svg height="60" width="480px" xmlns="http://www.w3.org/2000/svg">
+            <rect class="shape" height="60" width="480px" />
+            <div class="text">6mo. Anniversary - 12/21</div>
+        </svg>
+    </div><br /><br />
+    <div class="svg-wrapper">
+        <svg height="60" width="480px" xmlns="http://www.w3.org/2000/svg">
+            <rect class="shape" height="60" width="480px" />
+            <div class="text">First Meet - 12/21</div>
+        </svg>
+    </div><br /><br />
+    <div class="svg-wrapper">
+        <svg height="60" width="480px" xmlns="http://www.w3.org/2000/svg">
+            <rect class="shape" height="60" width="480px" />
+            <div class="text">Making It Official - 06/21</div>
+        </svg>
+    </div>
+</div>
