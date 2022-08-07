@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "2nlQGc737wFu2Kg7Kvgh/W0ybXmwu9GJGBo94EwXlL8=",
+  "Hash": "fJLPRjVwvg0jh9dNMj98gdDK3QGnHvguHO6RLncZ7eE=",
   "Source": "Mahal",
   "BasePath": "_content/Mahal",
   "Mode": "Default",
@@ -593,6 +593,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\love.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\bentr\\Documents\\MahalRepo\\Mahal\\Mahal\\wwwroot\\images\\maye&mik.jpg",
+      "SourceId": "Mahal",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\bentr\\Documents\\MahalRepo\\Mahal\\Mahal\\wwwroot\\",
+      "BasePath": "_content/Mahal",
+      "RelativePath": "images/maye&mik.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\maye&mik.jpg"
     },
     {
       "Identity": "C:\\Users\\bentr\\Documents\\MahalRepo\\Mahal\\Mahal\\wwwroot\\images\\moments.webp",
