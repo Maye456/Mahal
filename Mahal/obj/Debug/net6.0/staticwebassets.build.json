@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "fJLPRjVwvg0jh9dNMj98gdDK3QGnHvguHO6RLncZ7eE=",
+  "Hash": "rh5ltStxq8ugsoT572JNtL6gzAi05QQpEi/BhaobLdE=",
   "Source": "Mahal",
   "BasePath": "_content/Mahal",
   "Mode": "Default",
@@ -678,6 +678,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\plane.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\bentr\\Documents\\MahalRepo\\Mahal\\Mahal\\wwwroot\\images\\proud.jpg",
+      "SourceId": "Mahal",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\bentr\\Documents\\MahalRepo\\Mahal\\Mahal\\wwwroot\\",
+      "BasePath": "_content/Mahal",
+      "RelativePath": "images/proud.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\proud.jpg"
     },
     {
       "Identity": "C:\\Users\\bentr\\Documents\\MahalRepo\\Mahal\\Mahal\\wwwroot\\images\\ring.jpg",
