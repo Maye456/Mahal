@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "rh5ltStxq8ugsoT572JNtL6gzAi05QQpEi/BhaobLdE=",
+  "Hash": "Wr9+4QzPI1fBU7CBWpWcUkBMdUsQYyznTpKDA6DYuV0=",
   "Source": "Mahal",
   "BasePath": "_content/Mahal",
   "Mode": "Default",
@@ -1751,12 +1751,12 @@
       "OriginalItemSpec": "wwwroot\\Videos\\ForMik.mp4"
     },
     {
-      "Identity": "C:\\Users\\bentr\\Documents\\MahalRepo\\Mahal\\Mahal\\wwwroot\\Videos\\ForMik.ogg",
+      "Identity": "C:\\Users\\bentr\\Documents\\MahalRepo\\Mahal\\Mahal\\wwwroot\\Videos\\Perfect Song Cover.mp3",
       "SourceId": "Mahal",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\bentr\\Documents\\MahalRepo\\Mahal\\Mahal\\wwwroot\\",
       "BasePath": "_content/Mahal",
-      "RelativePath": "Videos/ForMik.ogg",
+      "RelativePath": "Videos/Perfect Song Cover.mp3",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1765,7 +1765,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Videos\\ForMik.ogg"
+      "OriginalItemSpec": "wwwroot\\Videos\\Perfect Song Cover.mp3"
     }
   ]
 }

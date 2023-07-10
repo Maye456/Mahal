@@ -12,7 +12,6 @@
     <None Include="wwwroot\images\sunset.jpg" />
     <None Include="wwwroot\Videos\ForMik.avi" />
     <None Include="wwwroot\Videos\ForMik.mp4" />
-    <None Include="wwwroot\Videos\ForMik.ogg" />
   </ItemGroup>
 
 </Project>
