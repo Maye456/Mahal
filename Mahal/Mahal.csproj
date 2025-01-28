@@ -14,4 +14,8 @@
     <None Include="wwwroot\Videos\ForMik.mp4" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="blazor-dom-confetti" Version="0.0.0.5" />
+  </ItemGroup>
+
 </Project>

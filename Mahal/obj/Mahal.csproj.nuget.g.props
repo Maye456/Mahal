@@ -13,4 +13,7 @@
     <SourceRoot Include="C:\Users\bentr\.nuget\packages\" />
     <SourceRoot Include="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
   </ItemGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)blazor-dom-confetti\0.0.0.5\buildTransitive\blazor-dom-confetti.props" Condition="Exists('$(NuGetPackageRoot)blazor-dom-confetti\0.0.0.5\buildTransitive\blazor-dom-confetti.props')" />
+  </ImportGroup>
 </Project>

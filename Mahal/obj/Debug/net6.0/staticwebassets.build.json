@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Wr9+4QzPI1fBU7CBWpWcUkBMdUsQYyznTpKDA6DYuV0=",
+  "Hash": "qqPLW8hCxZ49czE7S1Mwpc3Y+hj7kchqYf/dh78rQw8=",
   "Source": "Mahal",
   "BasePath": "_content/Mahal",
   "Mode": "Default",
@@ -16,6 +16,23 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\bentr\\.nuget\\packages\\blazor-dom-confetti\\0.0.0.5\\staticwebassets\\bundle.js",
+      "SourceId": "blazor-dom-confetti",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\bentr\\.nuget\\packages\\blazor-dom-confetti\\0.0.0.5\\staticwebassets\\",
+      "BasePath": "_content/blazor-dom-confetti",
+      "RelativePath": "bundle.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\bentr\\.nuget\\packages\\blazor-dom-confetti\\0.0.0.5\\staticwebassets\\bundle.js"
+    },
     {
       "Identity": "C:\\Users\\bentr\\Documents\\MahalRepo\\Mahal\\Mahal\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Mahal.styles.css",
       "SourceId": "Mahal",
@@ -559,6 +576,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\banner.webp"
+    },
+    {
+      "Identity": "C:\\Users\\bentr\\Documents\\MahalRepo\\Mahal\\Mahal\\wwwroot\\images\\crying.jpg",
+      "SourceId": "Mahal",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\bentr\\Documents\\MahalRepo\\Mahal\\Mahal\\wwwroot\\",
+      "BasePath": "_content/Mahal",
+      "RelativePath": "images/crying.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\crying.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\bentr\\Documents\\MahalRepo\\Mahal\\Mahal\\wwwroot\\images\\flowers.jpg",
+      "SourceId": "Mahal",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\bentr\\Documents\\MahalRepo\\Mahal\\Mahal\\wwwroot\\",
+      "BasePath": "_content/Mahal",
+      "RelativePath": "images/flowers.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\flowers.jpg"
     },
     {
       "Identity": "C:\\Users\\bentr\\Documents\\MahalRepo\\Mahal\\Mahal\\wwwroot\\images\\forest.jpg",

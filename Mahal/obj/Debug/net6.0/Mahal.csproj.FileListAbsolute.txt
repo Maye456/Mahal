@@ -50,3 +50,5 @@ C:\Users\bentr\Documents\MahalRepo\Mahal\Mahal\obj\Debug\net6.0\refint\Mahal.dll
 C:\Users\bentr\Documents\MahalRepo\Mahal\Mahal\obj\Debug\net6.0\Mahal.pdb
 C:\Users\bentr\Documents\MahalRepo\Mahal\Mahal\obj\Debug\net6.0\Mahal.genruntimeconfig.cache
 C:\Users\bentr\Documents\MahalRepo\Mahal\Mahal\obj\Debug\net6.0\ref\Mahal.dll
+C:\Users\bentr\Documents\MahalRepo\Mahal\Mahal\bin\Debug\net6.0\blazor-dom-confetti.dll
+C:\Users\bentr\Documents\MahalRepo\Mahal\Mahal\obj\Debug\net6.0\Mahal.csproj.CopyComplete

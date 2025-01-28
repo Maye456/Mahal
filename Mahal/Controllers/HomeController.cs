@@ -38,6 +38,11 @@ namespace Mahal.Controllers
             return View();
         }
 
+        public IActionResult Valentine()
+        {
+            return View();
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
