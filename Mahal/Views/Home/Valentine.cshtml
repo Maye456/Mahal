@@ -1,0 +1,95 @@
+﻿@{
+    ViewData["Title"] = "Be My Valentine?";
+}
+
+
+<head>
+    <style>
+        #flowers {
+            display: none;
+        }
+        #crying {
+            display: none;
+        }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+</head>
+
+<div class="text-center">
+    <br />
+    <br />
+    <br />
+    <h2>Will you be my Valentine?</h2>
+    <br />
+    <table align="center">
+        <tr>
+            <td style="padding:50px">
+                <button id="btnYes" type="button" class="btnYes" style="width:100px" onclick="btnYes_OnClick()">Yes
+                </button>
+            </td>
+            <td style="padding:50px">
+                <button id="btnNo" type="button" class="btnNo" style="width:100px" onclick="btnNo_OnClick()">No</button>
+            </td>
+        </tr>
+    </table>
+    <p style="font-size:15px">*Please click the button again before choosing different option... just in case*</p>
+    <br />
+    <div id="flowers">
+        <h3>YAY!!! I LOVE YOU!!! <3 </h3>
+        <img src="~/images/flowers.jpg" id="imgFlowers" />
+    </div>
+    <div id="crying">
+        <h3>Brb going to cry now </h3>
+        <img src="~/images/crying.jpg" id="imgCrying" />
+    </div>
+
+</div>
+
+<script>
+    function toggler(divId) {
+            $("#" + divId).toggle();
+        }
+
+        function btnYes_OnClick() {
+            toggler('flowers');
+            document.getElementById("btnYes").disabled = true;
+            var end = Date.now() + (2 * 1000);
+
+            // go Buckeyes!
+            var colors = ['#1823d9', '#ffffff'];
+
+            function frame() {
+                confetti({
+                    particleCount: 2,
+                    angle: 60,
+                    spread: 55,
+                    origin: { x: 0 },
+                    colors: colors
+                });
+                confetti({
+                    particleCount: 2,
+                    angle: 120,
+                    spread: 55,
+                    origin: { x: 1 },
+                    colors: colors
+                });
+
+                if (Date.now() < end) {
+                    requestAnimationFrame(frame);
+                }
+                else {
+                    document.getElementById("btnYes").disabled = false;
+                }
+            };
+
+            frame();
+        }
+
+        function btnNo_OnClick() {
+            toggler('crying');
+
+            if ('flowers'.toggle() == true) {
+                toggler('flowers');
+            }
+        }
+</script>
